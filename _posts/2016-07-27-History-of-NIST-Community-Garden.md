@@ -1,9 +1,12 @@
 ---
 title: History of the NIST Community Garden
-author: Neil Zimmerman
 categories:
 - General
 feature_image: "/images/SEBAGardens_progression.png"
+---
+
+By ***Neil Zimmerman***, mostly.
+
 ---
 
 ## Brief Version
