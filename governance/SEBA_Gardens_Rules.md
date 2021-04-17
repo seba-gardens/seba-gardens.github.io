@@ -2,7 +2,6 @@
 title: "SEBA Organic Community Gardens: Conditions of Use"
 categories:
 - Governance
-feature_image: "/images/SEBAGardens_thin_banner.png"
 ---
 
 Revised January 23, 2020.

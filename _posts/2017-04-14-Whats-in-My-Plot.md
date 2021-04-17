@@ -2,7 +2,6 @@
 title: "What's Growing in My Plot? Cover Crops and Weeds"
 categories:
 - General
-feature_image: "/images/SEBAGardens_thin_banner.png"
 ---
 
 By ***Emily Townsend***

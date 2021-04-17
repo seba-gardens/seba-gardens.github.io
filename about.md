@@ -14,12 +14,14 @@ the Community Garden came into being [here][origin].
 Each garden plot is 3 m × 3 m (10 ft × 10 ft) and costs $30 for a year. Organic
 practices are required in the garden; read the detailed [SEBA Gardens Rules][rules].
 If you would like to join after reviewing the Rules, please complete and return
-the [SEBA Gardens Membership Form][membership].
+the [SEBA Gardens Membership Form][membership]. You can also request to join
+the [SEBA Gardens Mailing List][listserv].
 
 Please [contact us][contact] with any questions or comments you may have.
 
 <!--Links-->
 [contact]: mailto:sebagardens@gmail.com
+[listserv]: https://groups.google.com/forum/#!forum/sebagardeners
 [membership]: /governance/SEBA_Gardens_Membership_Form.pdf
 [origin]:  /general/2016/07/27/History-of-NIST-Community-Garden/
 [rules]:   /governance/SEBA_Gardens_Rules/
