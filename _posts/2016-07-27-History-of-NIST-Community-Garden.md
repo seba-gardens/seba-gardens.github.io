@@ -7,8 +7,6 @@ feature_image: "/images/SEBAGardens_progression.png"
 
 By ***Neil Zimmerman***, mostly.
 
----
-
 ## Brief Version
 
 In about 2010, Neil tried to get information about the legality of starting a

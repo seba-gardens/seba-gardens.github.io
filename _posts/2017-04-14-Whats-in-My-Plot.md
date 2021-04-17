@@ -7,8 +7,6 @@ feature_image: "/images/SEBAGardens_thin_banner.png"
 
 By ***Emily Townsend***
 
----
-
 All the weeds in our plots are holding soil nutrients in their stems, leaves,
 flowers, etc. So they work a little bit like a cover crop in that sense. If you
 kill them they will release nutrients as they decompose. But weeds are harder

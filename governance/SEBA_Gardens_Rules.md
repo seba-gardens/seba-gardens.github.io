@@ -1,6 +1,5 @@
 ---
 title: "SEBA Organic Community Gardens: Conditions of Use"
-author: SEBA Gardens Executive Committee
 categories:
 - Governance
 feature_image: "/images/SEBAGardens_thin_banner.png"
