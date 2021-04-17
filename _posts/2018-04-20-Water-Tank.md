@@ -2,6 +2,7 @@
 title: Solar Water Tank
 categories:
 - General
+feature_image: "/images/SEBAGardens_thin_banner.png"
 ---
 
 By ***Przemek Klosowski***
