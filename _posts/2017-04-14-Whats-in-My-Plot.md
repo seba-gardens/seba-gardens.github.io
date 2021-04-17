@@ -3,7 +3,7 @@ title: "What's Growing in My Plot? Cover Crops and Weeds"
 author: Emily Townsend
 categories:
 - General
-feature_image: "/images/SEBAGardens_progression.png"
+feature_image: "/images/SEBAGardens_thin_banner.png"
 ---
 
 All the weeds in our plots are holding soil nutrients in their stems, leaves,
