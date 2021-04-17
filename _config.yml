@@ -1,15 +1,15 @@
 # Main configuration file for the SEBA Gardens Website
 ---
 # Site settings
-url: 'https://sebagardens.org'
+url: 'https://seba-gardens.github.io'
 baseurl: ''
 title: 'SEBA Gardens'
-description: 'SEBA Gardens community website'
+description: 'SEBA Community Gardens Website'
 permalink: pretty
 logo: "/images/tomato.png"
 
 # Pagination
-paginate: 5
+paginate: 8
 paginate_path: news/page:num
 
 # Header nav
@@ -20,16 +20,8 @@ navigation_header:
   url: /about/
 - title: News
   url: /news/
-  dropdown:
-  - title: "Info"
-    url: "/about/"
-  - title: "Governance"
-    url: "/governance/"
-  dropdown:
-  - title: "News"
-    url: "/news/"
-  - title: "Twitter"
-    url: "https://twitter.com/sebagardens"
+- title: "Governance"
+  url: "/governance/"
 
 # Footer nav
 navigation_footer:
@@ -41,10 +33,8 @@ collections:
   posts:
     title: Posts
     output: true
-    description: "SEBA Gardens Going-On"
-    feature_text: |
-      Welcome to SEBA Gardens!
-    feature_image: "/images/SEBAGardens_banner.png"
+    description: "SEBA Gardens Goings-On"
+    feature_image: "/images/SEBAGardens_thin_banner.png"
 
 # Collection settings
 defaults:
