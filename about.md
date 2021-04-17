@@ -3,8 +3,6 @@ title: About SEBA Gardens
 feature_image: "/images/SEBAGardens_thin_banner.png"
 ---
 
-# About SEBA Gardens
-
 Our Community Garden is open to members of the Standards Employee Benefits
 Association (SEBA) including employees, guest researchers and associates of the
 National Institute of Standards and Technology (NIST). You can read about how
