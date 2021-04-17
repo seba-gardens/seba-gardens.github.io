@@ -84,6 +84,8 @@ fixes nitrogen. It also attracts bees and other beneficial insects.
    position="center"
 %}
 
+An edible weed.
+
 ### Dead Nettle
 
 {% include figure.html 
