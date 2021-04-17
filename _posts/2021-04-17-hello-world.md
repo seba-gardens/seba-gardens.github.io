@@ -2,7 +2,7 @@
 title: Hello World
 categories:
 - General
-feature_image: "https://picsum.photos/2560/600?image=872"
+feature_image: "/images/SEBAGardens_thin_banner.png"
 ---
 
 SEBA Gardens is migrating from the old Google Sites backend

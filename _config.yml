@@ -1,7 +1,63 @@
 # Main configuration file for the SEBA Gardens Website
 ---
-# Set theme
-remote_theme: daviddarnes/alembic@main
+# Site settings
+url: 'https://sebagardens.org'
+baseurl: ''
+title: 'SEBA Gardens'
+description: 'SEBA Gardens community website'
+permalink: pretty
+logo: "/images/tomato.png"
+
+# Pagination
+paginate: 5
+paginate_path: news/page:num
+
+# Header nav
+navigation_header:
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: News
+  url: /news/
+  dropdown:
+  - title: "Info"
+    url: "/about/"
+  - title: "Governance"
+    url: "/governance/"
+  dropdown:
+  - title: "News"
+    url: "/news/"
+  - title: "Twitter"
+    url: "https://twitter.com/sebagardens"
+
+# Footer nav
+navigation_footer:
+- title: Back to top
+  url: "#top"
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: "SEBA Gardens Going-On"
+    feature_text: |
+      Welcome to SEBA Gardens!
+    feature_image: "/images/SEBAGardens_banner.png"
+
+# Collection settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page # Set the default layout for pages
 
 # File excludes
 exclude:
@@ -22,51 +78,8 @@ plugins:
 - jemoji
 - jekyll-remote-theme
 
-# Site settings
-url: 'https://sebagardens.org'
-baseurl: ''
-title: 'SEBA Gardens'
-description: 'SEBA Gardens community website'
-permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+# Set theme
+remote_theme: daviddarnes/alembic@main
 
-# Pagination
-paginate: 5
-paginate_path: news/page:num
-
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: News
-  url: /news/
-
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
-
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "SEBA Gardens Going-On"
-    feature_text: |
-      Welcome to SEBA Gardens!
-    feature_image: "https://picsum.photos/2560/600?image=866"
-
-# Collection settings
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post # Set the default layout for posts
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page # Set the default layout for pages
+# try to speed things up
+css_inline: true
