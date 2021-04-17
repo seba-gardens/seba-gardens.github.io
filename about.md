@@ -19,6 +19,14 @@ the [SEBA Gardens Mailing List][listserv].
 
 Please [contact us][contact] with any questions or comments you may have.
 
+#### Location
+
+{% include map.html
+   id="1lxog6T47yW215keMtFKlFBy1kXdsuP6D"
+   title="SEBA Gardens map" 
+   position="center"
+%}
+
 <!--Links-->
 [contact]: mailto:sebagardens@gmail.com
 [listserv]: https://groups.google.com/forum/#!forum/sebagardeners

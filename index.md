@@ -14,3 +14,11 @@ re-opening once regular site access is restored.
 If you are interested in having a plot, please review the
 [SEBA Gardens Rules](/governance/SEBA_Gardens_Rules/) and complete the 
 [SEBA Gardens Membership Form](/governance/SEBA_Gardens_Membership_Form.pdf).
+
+#### Location
+
+{% include map.html
+   id="1lxog6T47yW215keMtFKlFBy1kXdsuP6D"
+   title="SEBA Gardens map" 
+   position="center"
+%}
