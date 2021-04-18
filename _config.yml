@@ -6,7 +6,7 @@ baseurl: ''
 title: 'SEBA Gardens'
 description: 'SEBA Community Gardens Website'
 permalink: pretty
-logo: "/images/tomato.png"
+logo: "/images/SEBAGardens_logo.png"
 
 # Pagination
 paginate: 8
