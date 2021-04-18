@@ -3,8 +3,8 @@ title: About SEBA Gardens
 feature_image: "/images/SEBAGardens_thin_banner.png"
 ---
 
-***Due to COVID-19, the Gardens are closed until regular campus access is
-restored.***
+***SEBA Gardens is currently closed due to the COVID-19 pandemic. We anticipate
+re-opening once regular site access is restored.***
 
 Our Community Garden is open to members of the Standards Employee Benefits
 Association (SEBA) including employees, guest researchers and associates of the
@@ -20,6 +20,12 @@ the [SEBA Gardens Mailing List][listserv].
 Please [contact us][contact] with any questions or comments you may have.
 
 #### Location
+
+SEBA Gardens are located near the F Gate: see the map below. The surrounding
+area is undergoing meadowland restoration: **do not drive up to the Gardens**
+unless you have heavy materials to drop off. Park in the small area off the
+gravel road leading up to the site, and enjoy your relaxing stroll the rest of
+the way.
 
 {% include map.html
    id="1lxog6T47yW215keMtFKlFBy1kXdsuP6D"

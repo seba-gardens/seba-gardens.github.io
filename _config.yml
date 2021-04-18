@@ -22,6 +22,8 @@ navigation_header:
   url: /news/
 - title: "Governance"
   url: "/governance/"
+- title: "Search"
+  url: "/search/"
 
 # Footer nav
 navigation_footer:

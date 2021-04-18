@@ -4,6 +4,9 @@ categories:
 - Governance
 ---
 
+***SEBA Gardens is currently closed due to the COVID-19 pandemic. We anticipate
+re-opening once regular site access is restored.***
+
 Revised January 23, 2020.
 
 ### Administrative Rules
