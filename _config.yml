@@ -24,6 +24,10 @@ navigation_header:
   url: "/governance/"
 - title: "Search"
   url: "/search/"
+- title: <svg width="16" height="16" class="icon icon--twitter" role="img" alt="twitter"><title>"Twitter"</title><use xlink:href="#twitter" fill="CurrentColor"></use></svg>
+  url: https://twitter.com/sebagardens
+- title: <svg width="16" height="16" class="icon icon--github" role="img" alt="github"><title>"GitHub"</title><use xlink:href="#github" fill="CurrentColor"></use></svg>
+  url: https://github.com/seba-gardens
 
 # Footer nav
 navigation_footer:
