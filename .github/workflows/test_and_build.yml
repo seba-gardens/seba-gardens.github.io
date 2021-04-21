@@ -1,3 +1,4 @@
+---
 name: Check lesson and build for all configs
 
 on:
@@ -10,21 +11,24 @@ jobs:
   check_lesson_and_build_default:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-ruby@v1
-      with:
-        ruby-version: '2.7'
-    - name: Install Dependencies
-      run: |
-        gem install bundler json kramdown kramdown-parser-gfm
-        bundle config set path '.vendor/bundle'
-        bundle install
-    - name: Build Website
-      run: |
-        make --always-make site
-    - name: Check Spelling
-      run: |
-        make spellcheck
-    - name: Check Hyperlinks
-      run: |
-        make linkcheck
+      - uses: actions/checkout@v2
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+      - name: Check Spelling
+        uses: codespell-project/actions-codespell@master
+        with:
+          check_filenames: true
+          ignore_words_list: 'rouge,sting,tim'
+          skip: assets,.bundle,.git,_site,*.svg,.vendor
+      - name: Install Dependencies
+        run: |
+          gem install bundler json kramdown kramdown-parser-gfm
+          bundle config set path '.vendor/bundle'
+          bundle install
+      - name: Build Website
+        run: |
+          make --always-make site
+      - name: Check Hyperlinks
+        run: |
+          make linkcheck

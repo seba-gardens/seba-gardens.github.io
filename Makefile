@@ -21,7 +21,7 @@ linkcheck:
 	bundle exec htmlproofer --check-html --allow-hash-href --empty-alt-ignore _site
 
 spellcheck:
-	codespell --skip="assets,.bundle,_site,*.svg,.vendor" --quiet-level=2 -L "rouge,sting,tim"
+	codespell --check-filenames --ignore-words-list="rouge,sting,tim" --skip="assets,.bundle,.git,_site,*.svg,.vendor" --quiet-level=2
 
 ## clean up junk files
 clean :
