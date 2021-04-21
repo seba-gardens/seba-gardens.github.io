@@ -38,4 +38,4 @@ the way.
 [listserv]: https://groups.google.com/forum/#!forum/sebagardeners
 [membership]: /governance/SEBA_Gardens_Membership_Form.pdf
 [origin]:  /general/2016/07/27/History-of-NIST-Community-Garden/
-[rules]:   /governance/SEBA_Gardens_Rules/
+[rules]:   /governance/SEBA-Gardens-Rules/

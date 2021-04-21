@@ -1,12 +1,11 @@
 # Main configuration file for the SEBA Gardens Website
 ---
 # Site settings
-url: 'https://seba-gardens.github.io'
-baseurl: ''
 title: 'SEBA Gardens'
 description: 'SEBA Community Gardens Website'
-permalink: pretty
 logo: "/images/SEBAGardens_logo.png"
+baseurl: ''
+permalink: pretty
 
 # Pagination
 paginate: 8
@@ -56,6 +55,9 @@ defaults:
     values:
       layout: page # Set the default layout for pages
       feature_image: "/images/SEBAGardens_thin_banner.png"
+
+# Syntax highlighter for block quotes
+highlighter: rouge
 
 # File excludes
 exclude:

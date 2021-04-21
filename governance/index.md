@@ -87,4 +87,4 @@ basis while the Gardens are open. Our By-Laws are available in the
 </table>
 
 <!--Links-->
-[rules]:      /governance/SEBA_Gardens_Rules/
+[rules]:      /governance/SEBA-Gardens-Rules/

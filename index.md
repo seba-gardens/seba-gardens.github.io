@@ -12,7 +12,7 @@ We officially opened for gardening in Spring of 2016 after a year of hard work
 by volunteers who raised funds and prepared the site for gardening.
 
 If you are interested in having a plot, please review the
-[SEBA Gardens Rules](/governance/SEBA_Gardens_Rules/) and complete the 
+[SEBA Gardens Rules](/governance/SEBA-Gardens-Rules/) and complete the 
 [SEBA Gardens Membership Form](/governance/SEBA_Gardens_Membership_Form.pdf).
 
 {% include map.html

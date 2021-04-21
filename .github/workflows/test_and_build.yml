@@ -22,3 +22,9 @@ jobs:
     - name: Build Website
       run: |
         make --always-make site
+    - name: Check Spelling
+      run: |
+        make spellcheck
+    - name: Check Hyperlinks
+      run: |
+        make linkcheck

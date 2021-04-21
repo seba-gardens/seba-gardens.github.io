@@ -7,7 +7,7 @@ JEKYLL=bundle config --local set path .vendor/bundle && bundle install && bundle
 DST=_site
 
 all: serve
-.PHONY: all clean serve site
+.PHONY: all clean linkcheck serve site
 
 ## build website and run a local server
 serve:
@@ -17,9 +17,16 @@ serve:
 site:
 	${JEKYLL} build --config _config.yml
 
+linkcheck:
+	bundle exec htmlproofer --check-html --allow-hash-href --empty-alt-ignore _site
+
+spellcheck:
+	codespell --skip="assets,.bundle,_site,*.svg,.vendor" --quiet-level=2 -L "rouge,sting,tim"
+
 ## clean up junk files
 clean :
 	@rm -rf ${DST}
+	@rm -rf .jekyll-cache
 	@rm -rf .sass-cache
 	@find . -name .DS_Store -exec rm {} \;
 	@find . -name '*~' -exec rm {} \;
