@@ -13,25 +13,25 @@ paginate_path: news/page:num
 
 # Header nav
 navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: News
-  url: /news/
-- title: "Governance"
-  url: "/governance/"
-- title: "Search"
-  url: "/search/"
-- title: <svg width="16" height="16" class="icon icon--twitter" role="img" alt="twitter"><title>"Twitter"</title><use xlink:href="#twitter" fill="CurrentColor"></use></svg>
-  url: https://twitter.com/sebagardens
-- title: <svg width="16" height="16" class="icon icon--github" role="img" alt="github"><title>"GitHub"</title><use xlink:href="#github" fill="CurrentColor"></use></svg>
-  url: https://github.com/seba-gardens
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: News
+    url: /news/
+  - title: "Governance"
+    url: "/governance/"
+  - title: "Search"
+    url: "/search/"
+  - title: <svg width="16" height="16" class="icon icon--twitter" role="img" alt="twitter"><title>"Twitter"</title><use xlink:href="#twitter" fill="CurrentColor"></use></svg>
+    url: https://twitter.com/sebagardens
+  - title: <svg width="16" height="16" class="icon icon--github" role="img" alt="github"><title>"GitHub"</title><use xlink:href="#github" fill="CurrentColor"></use></svg>
+    url: https://github.com/seba-gardens
 
 # Footer nav
 navigation_footer:
-- title: Back to top
-  url: "#top"
+  - title: Back to top
+    url: "#top"
 
 # Collections
 collections:
@@ -47,13 +47,13 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: post # Set the default layout for posts
+      layout: post  # Set the default layout for posts
       feature_image: "/images/SEBAGardens_thin_banner.png"
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: page # Set the default layout for pages
+      layout: page  # Set the default layout for pages
       feature_image: "/images/SEBAGardens_thin_banner.png"
 
 # Syntax highlighter for block quotes
@@ -61,22 +61,22 @@ highlighter: rouge
 
 # File excludes
 exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 # Set plugins
 plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
-- jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-commonmark
+  - jekyll-include-cache
+  - jemoji
+  - jekyll-remote-theme
 
 # Set theme
 remote_theme: daviddarnes/alembic@main
