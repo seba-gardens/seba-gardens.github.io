@@ -76,22 +76,7 @@ basis while the Gardens are open. Our By-Laws are available in the
 <td>
 {% include figure.html
    image="/images/ec/Neil-Zimmerman.png"
-   caption="Neil Zimmerman, <em>...</em>"
-   width="300"
-   height="300"
-%}
-</td>
-</tr>
-</table>
-
-## Emeritus Members
-
-<table>
-<tr>
-<td>
-{% include figure.html
-   image="/images/ec/Neil-Zimmerman.png"
-   caption="Neil Zimmerman, <em>President</em> (2016—2022)"
+   caption="Neil Zimmerman, <em>At-Large Member</em>"
    width="300"
    height="300"
 %}
