@@ -39,8 +39,8 @@ basis while the Gardens are open. Our By-Laws are available in the
 </td>
 <td>
 {% include figure.html
-   image="/images/ec/Lucy-Fox.png"
-   caption="Lucy Fox, <em>Plot Coordinator</em>"
+   image="/images/ec/Katherine-Hall.png"
+   caption="Katherine Hall, <em>Plot Coordinator</em>"
    width="300"
    height="300"
 %}
