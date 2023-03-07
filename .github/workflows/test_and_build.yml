@@ -11,9 +11,9 @@ jobs:
   check_lesson_and_build_default:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Setup Ruby, JRuby and TruffleRuby
-        uses: ruby/setup-ruby@v1.143.0
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.7'
       - name: Check Spelling

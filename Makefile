@@ -2,8 +2,8 @@
 ## Build the website locally
 
 # Settings
-MAKEFILES=Makefile $(wildcard *.mk)
 JEKYLL=bundle config --local set path .vendor/bundle && bundle install && bundle update && bundle exec jekyll
+
 DST=_site
 
 all: serve
@@ -18,15 +18,24 @@ site:
 	${JEKYLL} build --config _config.yml
 
 linkcheck:
-	bundle exec htmlproofer --check-html --allow-hash-href --empty-alt-ignore _site
+	bundle exec htmlproofer --allow-hash-href \
+                            --empty-alt-ignore \
+                            --only-4xx \
+                            $(DST)
 
 spellcheck:
-	codespell --check-filenames --ignore-words-list="rouge,sting,tim" --skip="assets,.bundle,.git,_site,*.svg,.vendor" --quiet-level=2
+	codespell --check-filenames \
+              --ignore-words-list="rouge,sting,tim" \
+              --skip="assets,.bundle,.git,${DST},*.svg,.vendor" \
+              --quiet-level=2
 
 ## clean up junk files
 clean :
 	@rm -rf ${DST}
+	@rm -rf .bundle
 	@rm -rf .jekyll-cache
 	@rm -rf .sass-cache
+	@rm -rf .vendor
 	@find . -name .DS_Store -exec rm {} \;
 	@find . -name '*~' -exec rm {} \;
+	@rm -f Gemfile.lock
