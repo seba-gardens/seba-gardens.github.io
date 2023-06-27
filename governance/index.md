@@ -64,6 +64,7 @@ basis while the Gardens are open. Our By-Laws are available in the
 %}
 </td>
 </tr>
+<tr>
 <td>
 {% include figure.html
    image="/images/ec/Neil-Zimmerman.png"
