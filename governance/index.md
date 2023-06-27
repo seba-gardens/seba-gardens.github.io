@@ -14,7 +14,7 @@ basis while the Gardens are open. Our By-Laws are available in the
 <td>
 {% include figure.html
    image="/images/ec/Amanda-Pertzborn.png"
-   caption="Amanda Pertzborn, <em>President</em> (2022—)"
+   caption="Amanda Pertzborn, <em>President</em>"
    width="300"
    height="300"
 %}
@@ -32,7 +32,7 @@ basis while the Gardens are open. Our By-Laws are available in the
 <td>
 {% include figure.html
    image="/images/ec/Eric-Benck.png"
-   caption="Eric Benck, <em>Compost Coordinator</em>"
+   caption="Eric Benck, <em>Volunteer & Compost Coordinator</em>"
    width="300"
    height="300"
 %}
@@ -46,15 +46,6 @@ basis while the Gardens are open. Our By-Laws are available in the
 %}
 </td>
 </tr>
-<tr>
-<td>
-{% include figure.html
-   image="/images/ec/Trevor-Keller.png"
-   caption="Trevor Keller, <em>Volunteer Coordinator</em>"
-   width="300"
-   height="300"
-%}
-</td>
 <td>
 {% include figure.html
    image="/images/ec/Przemek-Klosowski.png"
@@ -63,8 +54,6 @@ basis while the Gardens are open. Our By-Laws are available in the
    height="300"
 %}
 </td>
-</tr>
-<tr>
 <td>
 {% include figure.html
    image="/images/ec/Emily-Townsend.png"
@@ -73,10 +62,11 @@ basis while the Gardens are open. Our By-Laws are available in the
    height="300"
 %}
 </td>
+</tr>
 <td>
 {% include figure.html
    image="/images/ec/Neil-Zimmerman.png"
-   caption="Neil Zimmerman, <em>At-Large Member</em>"
+   caption="Neil Zimmerman, <em>At-Large Member & Emeritus President</em>"
    width="300"
    height="300"
 %}
