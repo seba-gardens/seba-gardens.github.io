@@ -1,0 +1,94 @@
+\documentclass[letterpaper,12pt,dvipsnames,notitlepage]{article}
+\usepackage{amsmath,amssymb,bm,fontspec,graphicx,setspace,siunitx,tikz}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.625in]{geometry}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+
+\setmainfont{TeXGyreTermesX}
+\usetikzlibrary{backgrounds,calc}
+
+\hypersetup{
+  pdfauthor      = {Trevor Keller <tkellerphd@gmail.com>},
+  pdfkeywords    = {SEBA~Gardens, Membership, renewal},
+  pdftitle       = {SEBA~Gardens Annual Membership Renewal},
+}
+
+\newcommand{\mailto}[1]{\href{mailto:#1}{#1}}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\title{{\includegraphics[width=5in]{{../images/SEBAGardens_banner}}}}
+\author{\large{\bf Annual Membership Renewal Form}}
+\date{}
+\maketitle
+\thispagestyle{empty}
+
+\begin{Form}
+\vskip-1.25\baselineskip{}
+\noindent
+\emph{Welcome!} Thank you for your interest in gardening at SEBA~Gardens,
+the NIST campus community garden. Please use this form to reserve
+or renew one or more {\bf 3\,{m}\,{×}\,{3}\,{m}}
+(10\,{ft}\,{×}\,{10}\,{ft}) plots, each \textbf{\${30}} per year. Your
+plot fee covers maintenance and shared resources: seeds, tools, shed,
+water tank, \emph{etc}. Because SEBA~Gardens is chartered by
+\href{https://inet.nist.gov/do/deio/seba}{SEBA}, gardeners need to be SEBA
+members: please enroll if you have not already done so this year.
+
+\vskip0.5\baselineskip{}
+\noindent
+In the space below, please provide your name, phone number, and preferred email
+address for gardening-related business. If you are sharing your plot with
+other gardeners (SEBA members), please provide their info as well.\\[2pt]
+\TextField[name=id,width=\textwidth,multiline]{\mbox{}}\\[0.25\baselineskip]
+\TextField[name=count,width=10em]{How many people will use your plot(s)?}{\mbox{}}
+          {\small \emph{Include yourself, colleagues, family, and friends.}}\\[0.25\baselineskip]
+Please comment on your plot preferences, if any.
+\emph{\small Near a friend? Same as last year?}
+If you have questions about
+plot availability, please contact our Plot Coordinator, Katherine~Hall:
+\mailto{katherine.hall@nist.gov}.\\[2pt]
+\TextField[name=deets,width=\textwidth,multiline]{}{\mbox{}}
+
+\vskip0.5\baselineskip{}
+\noindent
+Our community is sustained by fundraising projects and community work days
+(typically weekday evenings) during the growing season, April through
+October.\\
+\CheckBox[name=volunteer]{Are you able to attend 3 or more work parties?}{}
+\CheckBox[name=fundraise]{-- if not, can you help with fundraising?}{}\\
+\TextField[name=explain,width=0.74\textwidth]{If neither, please explain:}{\mbox{}}
+
+\vskip0.5\baselineskip{}
+\noindent
+\CheckBox[name=executive]{Are you interested in volunteering to serve on the Executive Committee?}{}
+
+\begin{center}
+  \hrule{}
+  \vskip2pt
+  \TextField[name=plots,width=8em]{Payment due: }{\mbox{}}
+\TextField[name=amount,width=8em]{ plot(s) (3\,{m}\,{×}\,{3}\,{m}) \texttimes{}
+  \${30} per plot = \$}{\mbox{}}\\[4pt]
+\hrule{}
+\end{center}
+
+% \vskip0.25\baselineskip{}
+\noindent
+Please submit this form to our Treasurer, Kerry~Siebein, with payment in
+\textbf{cash} or by \textbf{check} payable to ``SEBA Garden Club, Inc.''  You
+can find her in person (Bldg. 216, Rm. A109) or via inter-office mail (MS~6201).
+If you are not on campus, please email a copy of this form to
+\mailto{kerry.siebein@nist.gov} and submit a hard copy with payment once you
+return.
+
+\vfill
+
+\noindent
+\footnotesize{\emph{Updated \today{}}}\hfill\footnotesize \Reset{Clear Form}
+\end{Form}
+
+\newpage
+\resizebox{7in}{10in}{\input{plot-map}}
+\end{document}

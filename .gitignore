@@ -1,5 +1,12 @@
+*~
 .bundle
 .jekyll-cache
 .vendor
 Gemfile.lock
 _site
+
+*.aux
+*.log
+*.fls
+*.out
+*.fdb*
